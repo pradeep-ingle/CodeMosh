@@ -4,19 +4,14 @@ body {
   height: 100%;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
-.Posts{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    margin: 2% 10%;
-    background: lightgrey;
-}
-.Posts div{
-    margin: 10px 0px;
-    padding: 10px 0px;
-    background: beige;
+.mainDiv {
+  margin: 10%;
+  display: flex;
+  justify-content: center;
 }
