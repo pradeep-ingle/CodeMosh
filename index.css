@@ -1,0 +1,22 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.Posts{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 2% 10%;
+    background: lightgrey;
+}
+.Posts div{
+    margin: 10px 0px;
+    padding: 10px 0px;
+    background: beige;
+}
